@@ -19,4 +19,4 @@ jobs:
       with:
           token: ${{ SECRETS.GITHUB_TOKEN }}
 
-    - run: rbxcloud experience publish -f game.rbxl -p 14894396180 -u 5131483255 -t published -a ${{ secrets.API_KEY }}
+    - run: rbxcloud experience publish -f WarpTrains.rbxlx -p 14894396180 -u 5131483255 -t published -a ${{ secrets.API_KEY }}
